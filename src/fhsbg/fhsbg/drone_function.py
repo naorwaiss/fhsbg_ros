@@ -261,6 +261,8 @@ async def confirm_airborne(drone: System):
 
 
 
+
+
 async def control_velocity(drone, V_y: float = 0.0, V_x: float = 0.0, V_z: float = 0.0, Yaw_deg: float = 0.0):
 
         body_velocity = VelocityBodyYawspeed(V_y, V_x, V_z, Yaw_deg)  # Set correct velocity values
